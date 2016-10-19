@@ -10,7 +10,7 @@ export default function () {
     };
 
     const npm = new Npm();
-    const uri = 'https://registry.npmjs.org/npm';
+    const uri = 'https://registry.npm.taobao.org/npm';
     npm.distTags.fetch(uri, params, function (err, res) {
       if (err) {
         resolve();
